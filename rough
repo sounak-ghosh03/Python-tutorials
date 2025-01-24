@@ -1,0 +1,8 @@
+import os
+
+# Open Instagram
+# os.system("start instagram://")
+
+# # Open WhatsApp
+# os.system("start whatsapp://")
+os.system("start microsoft.windows.camera:")

@@ -1,0 +1,57 @@
+# PROGRAM TO USE MATPLOTLIB LIBRARY FUNCTION IN PYTHON
+
+
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# # Create a range of values
+# x = np.linspace(0, 10, 100)
+
+# # Plot sine and cosine curves
+# plt.plot(x, np.sin(x), label='sin(x)')
+# plt.plot(x, np.cos(x), label='cos(x)')
+
+# # Add title and labels
+# plt.title('Sine and Cosine Curves')
+# plt.xlabel('x')
+# plt.ylabel('y')
+
+# # Add a legend
+# plt.legend()
+
+# # Display the plot
+# plt.show()
+
+
+# import matplotlib.pyplot as plt
+
+# # Data
+# categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5']
+# values = [23, 45, 56, 78, 33]
+
+# # Create bar graph
+# plt.bar(categories, values)
+
+# # Add title and labels
+# plt.title('Bar Graph Example')
+# plt.xlabel('Categories')
+# plt.ylabel('Values')
+
+# # Display the plot
+# plt.show()
+
+
+import matplotlib.pyplot as plt
+
+# Data
+values = [23, 45, 56, 78, 33]
+categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5']
+
+# Create pie chart
+plt.pie(values, labels=categories, autopct='%1.1f%%')
+
+# Add title
+plt.title('Pie Chart Example')
+
+# Display the plot
+plt.show()
